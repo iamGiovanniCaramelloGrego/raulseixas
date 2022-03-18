@@ -1,4 +1,13 @@
     body{
     background-color: #A9A9A9 ;
 
+
 }
+        img{
+            width: 50%
+        ;
+        }
+
+        figure{
+            text-align: center;
+        }
