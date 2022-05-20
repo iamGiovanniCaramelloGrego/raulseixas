@@ -1,24 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
     body{
     background-color: 	#F8F8FF ;
 
 }
     .fundo_diferente{
         background-image: linear-gradient( gray, lightgray);
-
-
     }
     .img_topo{
-        width: 70%;
+        width: 40%;
     }
     .img_corpo{
-        width:50%;
+        width: 30%;
     }
         figure{
             text-align: center;
         }
 
         .container{
-            width: 80%;
+            width: 50%;
             margin: auto;
         }
         h1{
@@ -49,4 +50,5 @@
         .botao{
             padding-top: 15px;
         }
+
         
