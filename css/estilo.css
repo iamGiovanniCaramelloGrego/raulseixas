@@ -10,9 +10,12 @@ html{
     }
     .img_topo{
         width: 100%;
+
     }
     .img_corpo{
-        width: 30%;
+        width: 45%;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
         figure{
             text-align: center;
@@ -24,11 +27,14 @@ html{
         }
         h1{
             text-align: center;
-            color: black;
-        }
-        h2{
             width: 80%;
             margin: auto;
+        }
+        h2,h3{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 2%;
         }
         .p{
         
@@ -39,6 +45,7 @@ html{
         }
         .parag_letras > p{
             font-size: 1em;
+            line-height: 1.5;
         }
         .pinta_botao{
             width: 150px;
@@ -50,5 +57,63 @@ html{
         .botao{
             padding-top: 15px;
         }
+
+        footer p{
+            font-size: 1,2em;
+            text-align: center;
+
+        }
+        
+
+        .logo{
+            padding-top: 1%;
+            padding-bottom: 1%;
+
+        }
+        .menu, footer {
+            background-color: rgba(128, 128, 128, 0.4);
+            padding: 1,5%;
+            ;
+        
+        }
+
+        .item_menu{
+            line-height: 1,5;
+            text-align: center;
+
+        }
+        .item_menu a:link{
+            color: lightyellow;
+        }
+        .item_menu a:visited{
+            color: navajowhite;
+        }
+        .item_menu a:hover{
+           color: mediumpurple; 
+        }
+        .item_menu a:active{
+            color: indigo;
+        }
+        .container a:link{
+            color: lightyellow;
+        }
+        .container a:visited{
+            color: navajowhite;
+        }
+        .container a:hover{
+           color: mediumpurple; 
+        }
+        .container a:active{
+            color: indigo;
+        }
+        figure{
+            text-align: center;
+        }
+        section{
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        
+        
 
         
