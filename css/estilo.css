@@ -16,6 +16,7 @@ html{
         width: 45%;
         margin-top: 1%;
         margin-bottom: 1%;
+       
     }
         figure{
             text-align: center;
@@ -50,8 +51,12 @@ html{
         .pinta_botao{
             width: 150px;
             height: 50px;
-            background-image: linear-gradient(to right, #F08080 , #fff);
-            margin: auto;  
+            background-color: #F08080;
+            margin: auto;
+            padding: 0.2%;
+            text-align: center;
+            padding-top: 3%;
+            
         }
 
         .botao{
@@ -82,29 +87,20 @@ html{
             text-align: center;
 
         }
-        .item_menu a:link{
+        .item_menu a:link, .item_menu a:visited{
             color: lightyellow;
+            text-decoration: none;
         }
-        .item_menu a:visited{
-            color: navajowhite;
-        }
+        
         .item_menu a:hover{
-           color: mediumpurple; 
+           color: red;
+           padding: 0.8%;
+           text-decoration: none;
+           border-radius: 15%;
         }
         .item_menu a:active{
             color: indigo;
-        }
-        .container a:link{
-            color: lightyellow;
-        }
-        .container a:visited{
-            color: navajowhite;
-        }
-        .container a:hover{
-           color: mediumpurple; 
-        }
-        .container a:active{
-            color: indigo;
+            text-decoration: none;
         }
         figure{
             text-align: center;
@@ -113,7 +109,25 @@ html{
             margin-top: 2%;
             margin-bottom: 2%;
         }
-        
-        
+    
+        .testecss{
+            display: none;
+        }
+        .img_topoletras{
+            float: right;
+            width: 30%;
+            margin-right: 10%;
+        }
+        .pinta_botao:hover{
+            background-color: rgba(128, 128, 128, 0.3);
+          }
+          
+          .pinta_botao a:link, .pinta_botao :visited{
+            text-align: center;
+            text-decoration: none ; 
+            font-weight: bolder;
+            
+          }
+            
 
         
