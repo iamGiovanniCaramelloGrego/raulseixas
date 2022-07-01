@@ -43,6 +43,9 @@ html{
             color: black;
             text-align: justify;
             text-indent: 40px;
+            line-height: 1.5;
+            margin-top: 0.2%;
+            margin-bottom: 00.2;
         }
         .parag_letras > p{
             font-size: 1em;
@@ -64,8 +67,7 @@ html{
         }
 
         footer p{
-            width: 20%;
-            font-size: 1,8em;
+            padding: 1.2em;
             text-align: center;
 
         }
@@ -78,7 +80,9 @@ html{
         }
         .menu, footer {
             background-color: rgba(128, 128, 128, 0.4);
-            padding: 1,8%;
+            padding: 4%;
+            text-align: center;
+            
             
         
         }
@@ -130,5 +134,16 @@ html{
             margin-right: 2%;
         }
         
-
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 2%;
+        }
+        td,th{
+            border: 5px inset #8B0000;
+            text-align: center;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
         
