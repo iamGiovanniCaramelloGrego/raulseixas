@@ -1,3 +1,4 @@
+3
 html{
     scroll-behavior: smooth;
 }
@@ -30,12 +31,15 @@ html{
             text-align: center;
             width: 85%;
             margin: auto;
+            font-family: 'New Rocker', cursive;
+
         }
         h2,h3{
             width: 80%;
             margin: auto;
             text-align: center;
             margin-bottom: 2%;
+            font-family: 'New Rocker', cursive;
         }
         .p{
         
@@ -46,10 +50,14 @@ html{
             line-height: 1.5;
             margin-top: 0.2%;
             margin-bottom: 00.2;
+            font-family: 'New Rocker', cursive;
+            
         }
         .parag_letras > p{
             font-size: 1em;
             line-height: 1.5;
+            font-family: 'New Rocker', cursive;
+
         }
         .pinta_botao{
             width: 150px;
@@ -69,6 +77,8 @@ html{
         footer p{
             padding: 1.2em;
             text-align: center;
+            font-family: 'New Rocker', cursive;
+
 
         }
         
@@ -82,6 +92,7 @@ html{
             background-color: rgba(128, 128, 128, 0.4);
             padding: 4%;
             text-align: center;
+            font-family: 'Blaka', cursive;
             
             
         
