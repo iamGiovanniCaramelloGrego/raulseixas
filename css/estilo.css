@@ -1,4 +1,8 @@
-3
+@font-face{
+    font-family: NewRocker-Regular.ttf;
+
+    src: url('../fonts/NewRocker-Regular.ttf')
+}
 html{
     scroll-behavior: smooth;
 }
@@ -157,4 +161,54 @@ html{
             padding-top: 1%;
             padding-bottom: 1%;
         }
-        
+        th{
+            font-size: 1.5em ;
+            font-weight: bolder; 
+        }
+        td:first-child{
+            width: 40%;
+        }
+          
+        td:first-child + td{
+            width: 60%;
+        }
+        audio{
+            width: 75%;
+        }
+        audio::-webkit-media-controls-panel{
+            background-color:rgba(128, 128, 128, 0.3) !important;
+            }
+
+            .borda_form{
+                background-color: rgba(128, 128, 128, 0.3) ;
+                padding: 20px;
+                border-radius: 25px;
+                margin-top: 1%;
+                box-sizing: border-box;
+              }
+              label {
+                padding: 12px 12px 12px 0;
+                display: inline-block;
+              }
+            
+              input[type=text], select, textarea, input[type=tel], input[type=email] {
+                width: 96%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 15px;
+                resize: vertical;
+              }
+             
+            
+            .col-25{
+              width: 25%;
+              float: left;
+              margin-top: 6px;
+            
+            }
+            
+            .col-75{
+            width: 75%;
+            float: left;
+            margin-top: 6px;
+            }
