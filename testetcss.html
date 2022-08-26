@@ -15,11 +15,71 @@
         p{
             background-color: goldenrod;
         }
+        .container{
+            width: 110%;
+            height: 1050px;
+            position: relative;
+            background-color: royalblue;
+            
+        }
+        .fixo{
+            position: fixed;
+            width: 101%;
+            z-index: 1030;
+        }
+        .main{
+            position: relative;
+        }
+        .topodir{
+            position: absolute;
+            width: 20%;
+            right: 16px;
+            top: 50px;
+        }
+        .topoesq{
+            position: absolute;
+            width: 20%;
+            left: 16px;
+            top: 50px;
+        }
+        .baixodir{
+            position: absolute;
+            width: 20%;
+            bottom: 10px;
+            right: 16px;
+        }
+        .baixoesq{
+            position: absolute;
+            width: 20%;
+            bottom: 10px;
+            left: 16px;
+        }
+        .centro{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+
+        }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;color: hotpink;font-weight: bolder;">CSS Interno e Inline</h1>
-    <p style="border-color: brown;border-style: groove;color: lightcoral;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto soluta dolore quis est deserunt animi possimus, assumenda unde nostrum quibusdam distinctio sit similique ut voluptas facilis exercitationem beatae architecto.</p>
-    <p style="border-color: brown;border-style: groove;color: lightcoral;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, maxime. Similique amet molestias a alias exercitationem iusto atque laboriosam perspiciatis! Nulla, eligendi quasi magni maiores atque recusandae minima a distinctio.</p>
+    <header>
+        <h1 class="fixo" style="text-align: center;color: hotpink;font-weight: bolder;">CSS Interno e Inline</h1>
+        <p style="border-color: brown;border-style: groove;color: lightcoral;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto soluta dolore quis est deserunt animi possimus, assumenda unde nostrum quibusdam distinctio sit similique ut voluptas facilis exercitationem beatae architecto.</p>
+        <p style="border-color: brown;border-style: groove;color: lightcoral;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, maxime. Similique amet molestias a alias exercitationem iusto atque laboriosam perspiciatis! Nulla, eligendi quasi magni maiores atque recusandae minima a distinctio.</p>
+    </header>
+<div class="main">
+        <div class="container">
+            <h1>TESTE...</h1>
+            <div class="topodir">topodir</div>
+            <div class="topoesq">topoesq</div>
+            <div class="baixoesq">baixoesq</div>
+            <div class="baixodir">baixodir</div>
+            <div class="centro">centro</div>
+
+        </div>
+</div>
 </body>
 </html>

@@ -28,7 +28,7 @@ html{
         }
 
         .container{
-            width: 40%;
+            width: 50%;
             margin: auto;
         }
         h1{
@@ -47,11 +47,11 @@ html{
         }
         .p{
         
-            font-size: 1.8rem;
+            font-size: 2.0rem;
             color: black;
             text-align: justify;
-            text-indent: 40px;
-            line-height: 1.5;
+            text-indent: 50px;
+            line-height: 2.0;
             margin-top: 0.2%;
             margin-bottom: 00.2;
             font-family: 'New Rocker', cursive;
@@ -79,7 +79,7 @@ html{
         }
 
         footer p{
-            padding: 1.2em;
+            padding: 1.4em;
             text-align: center;
             font-family: 'New Rocker', cursive;
 
@@ -93,7 +93,7 @@ html{
             text-align: center;
         }
         .menu, footer {
-            background-color: rgba(128, 128, 128, 0.4);
+            background-color: black
             padding: 4%;
             text-align: center;
             font-family: 'Blaka', cursive;
@@ -108,12 +108,12 @@ html{
 
         }
         .item_menu a:link, .item_menu a:visited{
-            color: lightyellow;
+            color: crimson;
             text-decoration: none;
         }
         
         .item_menu a:hover{
-           color: red;
+           color: black;
            padding: 0.8%;
            text-decoration: none;
            border-radius: 15%;
@@ -156,7 +156,7 @@ html{
             margin-top: 2%;
         }
         td,th{
-            border: 5px inset #8B0000;
+            border: 5px inset black;
             text-align: center;
             padding-top: 1%;
             padding-bottom: 1%;
