@@ -85,12 +85,23 @@ html{
 
 
         }
-        
+        .fixo{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+          
+          }
+          
+          .banner{
+            margin-top: 25%;
+          }
+          
 
         .logo{
             padding-top: 1%;
             padding-bottom: 1%;
-            text-align: center;
+            text-align: left;
         }
         .menu, footer {
             background-color: black
@@ -237,4 +248,9 @@ html{
                   width: 100%;
                   margin-top: 0;
                 }
-              }              
+                header{
+                    padding: 1.5%;  
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    background-color: gray;
+                    position: relative;        
+                   
