@@ -7,7 +7,7 @@ html{
     scroll-behavior: smooth;
 }
     body{
-    background-color: 	#F8F8FF ;
+    background-color: 	grey ;
 
 }
     .fundo_diferente{
@@ -47,8 +47,8 @@ html{
         }
         .p{
         
-            font-size: 2.0rem;
-            color: black;
+            font-size: 2.8rem;
+            color: grey;
             text-align: justify;
             text-indent: 50px;
             line-height: 2.0;
@@ -66,7 +66,7 @@ html{
         .pinta_botao{
             width: 150px;
             height: 50px;
-            background-color: #F08080;
+            background-color: black;
             margin: auto;
             padding: 0.2%;
             text-align: center;
@@ -101,21 +101,22 @@ html{
         .logo{
             padding-top: 1%;
             padding-bottom: 1%;
-            text-align: left;
+            text-align: center;
         }
         .menu, footer {
-            background-color: black
-            padding: 4%;
-            text-align: center;
-            font-family: 'Blaka', cursive;
+            background-color: darkred;
+           text-align: center;
+            padding:  1%;
+            width: 98%;
             
             
         
         }
 
         .item_menu{
-            line-height: 1,5;
+            list-style: 1.5%;
             text-align: center;
+            margin: auto;
 
         }
         .item_menu a:link, .item_menu a:visited{
@@ -124,7 +125,7 @@ html{
         }
         
         .item_menu a:hover{
-           color: black;
+           color: purple;
            padding: 0.8%;
            text-decoration: none;
            border-radius: 15%;
@@ -249,8 +250,6 @@ html{
                   margin-top: 0;
                 }
                 header{
-                    padding: 1.5%;  
-                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                    background-color: gray;
-                    position: relative;        
-                   
+                 position: relative;
+                  }
+                  
