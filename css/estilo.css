@@ -15,7 +15,7 @@ html{
     }
     .img_topo{
         width: 100%;
-
+        
     }
     .img_corpo{
         width: 40%;
@@ -28,7 +28,7 @@ html{
         }
 
         .container{
-            width: 50%;
+            width: 60%;
             margin: auto;
         }
         h1{
@@ -38,12 +38,13 @@ html{
             font-family: 'New Rocker', cursive;
 
         }
-        h2,h3{
+        h2,{
             width: 80%;
             margin: auto;
             text-align: center;
             margin-bottom: 2%;
             font-family: 'New Rocker', cursive;
+            font-size: 1.5em;
         }
         .p{
         
@@ -90,23 +91,14 @@ html{
             top: 0;
             left: 0;
             right: 0;
+            z-index: 1;
           
           }
           
-          .banner{
-            margin-top: 25%;
-          }
-          
-
-        .logo{
-            padding-top: 1%;
-            padding-bottom: 1%;
-            text-align: center;
-        }
-        .menu, footer {
+        footer {
             background-color: darkred;
            text-align: center;
-            padding:  1%;
+            padding: 1%;
             width: 98%;
             
             
@@ -116,7 +108,6 @@ html{
         .item_menu{
             list-style: 1.5%;
             text-align: center;
-            margin: auto;
 
         }
         .item_menu a:link, .item_menu a:visited{
@@ -243,13 +234,76 @@ html{
               }
               input[type=submit]:hover {
                 background-color: royalblue;
+                font-weight: bolder;
+
               }
-              @media screen and (max-width: 500px) {
-                .col-25, .col-75, input[type=submit] {
-                  width: 100%;
-                  margin-top: 0;
-                }
-                header{
-                 position: relative;
-                  }
-                  
+             /*Faz uma alteração quando a tela fica menor que 600px */
+@media screen and (max-width:600px) {
+
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+     
+    }  
+  
+    .banner{
+      margin-top: 40%;
+    }
+  
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: center;
+    }
+  
+    .descer{
+      margin-top: 50%;
+    }
+  }
+  /*Faz uma alteração quando a tela fica maior que 601px */
+  @media screen and (min-width:601px) {
+  
+    header{
+      flex-direction: row;
+    }
+  
+    .itens_menu{
+      position: absolute;
+      right: 3%;
+      top: 30%;
+      width: 70%;
+  
+    }
+  
+    .itens_menu ul li {
+          display: inline;
+          margin-left: 1%;
+  
+  
+    }
+  
+    .banner{
+      margin-top: 8%;
+    }
+  
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: left;
+      width: 30%;
+    }
+  
+      
+  }
+    .img_logo{
+        width: 30%;
+    }    
+    header{
+        padding: 1.5%;  
+        font-family: 'Patrick Hand', cursive;
+        background-color: darkgray;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
