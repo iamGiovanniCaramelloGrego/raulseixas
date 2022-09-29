@@ -3,6 +3,15 @@
 
     src: url('../fonts/NewRocker-Regular.ttf')
 }
+.logo{
+  width: 50%;
+}
+.img_logo{
+  width: 70%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: left;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -267,7 +276,7 @@ html{
       flex-direction: row;
     }
   
-    .itens_menu{
+    .item_menu{
       position: absolute;
       right: 3%;
       top: 30%;
@@ -275,7 +284,7 @@ html{
   
     }
   
-    .itens_menu ul li {
+    .item_menu ul li {
           display: inline;
           margin-left: 1%;
   
@@ -286,18 +295,14 @@ html{
       margin-top: 8%;
     }
   
-    .logo{
-      padding-top: 1%;
-      padding-bottom: 1%;
-      text-align: left;
-      width: 30%;
-    }
+    
   
       
   }
     .img_logo{
         width: 30%;
-    }    
+    }  
+
     header{
         padding: 1.5%;  
         font-family: 'Patrick Hand', cursive;
